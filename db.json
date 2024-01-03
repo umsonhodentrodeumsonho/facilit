@@ -1,0 +1,427 @@
+{
+    "objetivos": [
+        {
+            "id": "obj-01",
+            "nome": "Objetivo 01",
+            "statusId": 1,
+            "diretoria": 100,
+            "tags": [
+                "Estratégico",
+                "Tático",
+                "Operacional"
+            ]
+        },
+        {
+            "id": "obj-02",
+            "nome": "Objetivo 02",
+            "statusId": 2,
+            "diretoria": 101,
+            "tags": [
+                "Estratégico",
+                "Operacional"
+            ]
+        },
+        {
+            "id": "obj-03",
+            "nome": "Objetivo 03",
+            "statusId": 1,
+            "diretoria": 103,
+            "tags": [
+                "Tático",
+                "Operacional"
+            ]
+        },
+        {
+            "id": "obj-04",
+            "nome": "Objetivo 04",
+            "statusId": 1,
+            "diretoria": 104,
+            "tags": [
+                "Estratégico"
+            ]
+        },
+        {
+            "id": "obj-05",
+            "nome": "Objetivo 05",
+            "statusId": 2,
+            "diretoria": 102,
+            "tags": [
+                "Operacional"
+            ]
+        },
+        {
+            "id": "obj-06",
+            "nome": "Objetivo 06",
+            "statusId": 1,
+            "diretoria": 103,
+            "tags": [
+                "Estratégico",
+                "Tático"
+            ]
+        },
+        {
+            "id": "obj-07",
+            "nome": "Objetivo 07",
+            "statusId": 1,
+            "diretoria": 104,
+            "tags": [
+                "Estratégico"
+            ]
+        },
+        {
+            "id": "obj-08",
+            "nome": "Objetivo 08",
+            "statusId": 2,
+            "diretoria": 100,
+            "tags": [
+                "Tático"
+            ]
+        },
+        {
+            "id": "obj-09",
+            "nome": "Objetivo 09",
+            "statusId": 1,
+            "diretoria": 102,
+            "tags": [
+                "Operacional"
+            ]
+        },
+        {
+            "id": "obj-10",
+            "nome": "Objetivo 10",
+            "statusId": 1,
+            "diretoria": 101,
+            "tags": [
+                "Estratégico",
+                "Tático"
+            ]
+        },
+        {
+            "id": "obj-11",
+            "nome": "Objetivo 11",
+            "statusId": 2,
+            "diretoria": 103,
+            "tags": [
+                "Tático"
+            ]
+        },
+        {
+            "id": "obj-12",
+            "nome": "Objetivo 12",
+            "statusId": 1,
+            "diretoria": 104,
+            "tags": [
+                "Operacional"
+            ]
+        },
+        {
+            "id": "obj-13",
+            "nome": "Objetivo 13",
+            "statusId": 1,
+            "diretoria": 100,
+            "tags": [
+                "Estratégico"
+            ]
+        },
+        {
+            "id": "obj-14",
+            "nome": "Objetivo 14",
+            "statusId": 2,
+            "diretoria": 101,
+            "tags": [
+                "Operacional"
+            ]
+        },
+        {
+            "id": "obj-15",
+            "nome": "Objetivo 15",
+            "statusId": 1,
+            "diretoria": 102,
+            "tags": [
+                "Tático"
+            ]
+        }
+    ],
+    "projetos": [
+        {
+            "id": "proj-01",
+            "nome": "Projeto 01",
+            "objetivoId": "obj-01",
+            "statusId": 1,
+            "diretoria": 100,
+            "tags": [
+                "Estratégico",
+                "Tático",
+                "Operacional"
+            ]
+        },
+        {
+            "id": "proj-02",
+            "nome": "Projeto 02",
+            "objetivoId": "obj-02",
+            "statusId": 1,
+            "diretoria": 101,
+            "tags": [
+                "Estratégico"
+            ]
+        },
+        {
+            "id": "proj-03",
+            "nome": "Projeto 03",
+            "objetivoId": "obj-03",
+            "statusId": 2,
+            "diretoria": 103,
+            "tags": [
+                "Operacional"
+            ]
+        },
+        {
+            "id": "proj-04",
+            "nome": "Projeto 04",
+            "objetivoId": "obj-04",
+            "statusId": 1,
+            "diretoria": 104,
+            "tags": [
+                "Estratégico"
+            ]
+        },
+        {
+            "id": "proj-05",
+            "nome": "Projeto 05",
+            "objetivoId": "obj-05",
+            "statusId": 2,
+            "diretoria": 102,
+            "tags": [
+                "Operacional"
+            ]
+        },
+        {
+            "id": "proj-06",
+            "nome": "Projeto 06",
+            "objetivoId": "obj-06",
+            "statusId": 1,
+            "diretoria": 103,
+            "tags": [
+                "Estratégico",
+                "Tático"
+            ]
+        },
+        {
+            "id": "proj-07",
+            "nome": "Projeto 07",
+            "objetivoId": "obj-07",
+            "statusId": 1,
+            "diretoria": 104,
+            "tags": [
+                "Estratégico"
+            ]
+        },
+        {
+            "id": "proj-08",
+            "nome": "Projeto 08",
+            "objetivoId": "obj-08",
+            "statusId": 2,
+            "diretoria": 100,
+            "tags": [
+                "Tático"
+            ]
+        }
+    ],
+    "etapas": [
+        {
+            "id": "etapa01",
+            "nome": "Etapa 01",
+            "objetivoId": "obj-01",
+            "projetoId": "proj-01",
+            "statusId": 1,
+            "diretoriaId": 100,
+            "tags": [
+                "Estratégico",
+                "Tático",
+                "Operacional"
+            ]
+        },
+        {
+            "id": "etapa02",
+            "nome": "Etapa 02",
+            "objetivoId": "obj-02",
+            "projetoId": "proj-02",
+            "statusId": 1,
+            "diretoriaId": 101,
+            "tags": [
+                "Estratégico"
+            ]
+        },
+        {
+            "id": "etapa03",
+            "nome": "Etapa 03",
+            "objetivoId": "obj-03",
+            "projetoId": "proj-03",
+            "statusId": 2,
+            "diretoriaId": 103,
+            "tags": [
+                "Operacional"
+            ]
+        },
+        {
+            "id": "etapa04",
+            "nome": "Etapa 04",
+            "objetivoId": "obj-04",
+            "projetoId": "proj-04",
+            "statusId": 1,
+            "diretoriaId": 104,
+            "tags": [
+                "Estratégico"
+            ]
+        },
+        {
+            "id": "etapa05",
+            "nome": "Etapa 05",
+            "objetivoId": "obj-05",
+            "projetoId": "proj-05",
+            "statusId": 2,
+            "diretoriaId": 102,
+            "tags": [
+                "Operacional"
+            ]
+        },
+        {
+            "id": "etapa06",
+            "nome": "Etapa 06",
+            "objetivoId": "obj-06",
+            "projetoId": "proj-06",
+            "statusId": 1,
+            "diretoriaId": 103,
+            "tags": [
+                "Estratégico",
+                "Tático"
+            ]
+        },
+        {
+            "id": "etapa07",
+            "nome": "Etapa 07",
+            "objetivoId": "obj-07",
+            "projetoId": "proj-07",
+            "statusId": 1,
+            "diretoriaId": 104,
+            "tags": [
+                "Estratégico"
+            ]
+        },
+        {
+            "id": "etapa08",
+            "nome": "Etapa 08",
+            "objetivoId": "obj-08",
+            "projetoId": "proj-08",
+            "statusId": 2,
+            "diretoriaId": 100,
+            "tags": [
+                "Tático"
+            ]
+        },
+        {
+            "id": "etapa09",
+            "nome": "Etapa 09",
+            "objetivoId": "obj-09",
+            "projetoId": "proj-09",
+            "statusId": 1,
+            "diretoriaId": 103,
+            "tags": [
+                "Estratégico"
+            ]
+        },
+        {
+            "id": "etapa10",
+            "nome": "Etapa 10",
+            "objetivoId": "obj-10",
+            "projetoId": "proj-10",
+            "statusId": 1,
+            "diretoriaId": 104,
+            "tags": [
+                "Tático"
+            ]
+        },
+        {
+            "id": "etapa11",
+            "nome": "Etapa 11",
+            "objetivoId": "obj-11",
+            "projetoId": "proj-11",
+            "statusId": 2,
+            "diretoriaId": 102,
+            "tags": [
+                "Operacional"
+            ]
+        },
+        {
+            "id": "etapa12",
+            "nome": "Etapa 12",
+            "objetivoId": "obj-12",
+            "projetoId": "proj-12",
+            "statusId": 1,
+            "diretoriaId": 103,
+            "tags": [
+                "Estratégico",
+                "Operacional"
+            ]
+        },
+        {
+            "id": "etapa13",
+            "nome": "Etapa 13",
+            "objetivoId": "obj-13",
+            "projetoId": "proj-13",
+            "statusId": 2,
+            "diretoriaId": 104,
+            "tags": [
+                "Tático"
+            ]
+        }
+    ],
+    "status": [
+        {
+            "id": 1,
+            "nome": "Atrasado",
+            "cor": "#e84c3d"
+        }
+    ],
+    "diretorias": [
+        {
+            "id": 100,
+            "nome": "Diretoria de Produto",
+            "sigla": "DPO"
+        },
+        {
+            "id": 101,
+            "nome": "Diretoria Administrativa",
+            "sigla": "DADM"
+        },
+        {
+            "id": 102,
+            "nome": "Diretoria Comercial",
+            "sigla": "DCOM"
+        },
+        {
+            "id": 103,
+            "nome": "Diretoria de Desenvolvimento",
+            "sigla": "DDEV"
+        },
+        {
+            "id": 104,
+            "nome": "Diretoria de Qualidade",
+            "sigla": "DQUAL"
+        }
+    ],
+    "responsavel": [
+        {
+            "id": 100,
+            "nome": "Rodolfo Batista"
+        },
+        {
+            "id": 101,
+            "nome": "Antonio Carlos"
+        },
+        {
+            "id": 101,
+            "nome": "André Santos"
+        }
+    ]
+}
